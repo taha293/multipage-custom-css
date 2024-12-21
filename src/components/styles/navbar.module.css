@@ -1,0 +1,110 @@
+.container{
+    height: 91px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 32px;
+}
+.navlogo{
+    height: 58px;
+    display: flex;
+    align-items: center;
+}
+.navlogo h3{
+    font-size: 20px;
+    height: 32px;
+    line-height: 32px;
+    font-weight: bold;
+    letter-spacing: 0.1px;
+}
+.navitems{
+    display: hidden;
+    height: 58px;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+}
+.navLinks{
+    height: 24px;
+}
+.navLinks ul{
+    display: flex;
+    gap: 22px;
+}
+.navLinks ul li p{
+    line-height: 24px;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+.navLinks ul li p:hover{
+    color:#23A6F0;
+}
+.navbtns{
+    height: 52px;
+    display: hidden;
+    gap: 45px;
+    align-items: center;
+    display: none;
+}
+.navlogin{
+    height: 22px;
+}
+.navbtns a{
+    line-height: 22px;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: right;
+    letter-spacing: 0.2px;
+}
+.navbtns a:hover{
+    color: #23A6F0;
+}
+.navJoins{
+    height: 52px;
+}
+.navJoins button{
+    height: 52px;
+    background-color: #23A6F0;
+    border-radius: 5px;
+    padding: 15px 25px;
+    transition: all;
+    transition-delay: 100ms;
+    color: white;
+    outline: none;
+    border: none;
+}
+.navJoins button p{
+   height: 22px;
+   line-height: 24px;
+   font-weight: bold;
+   font-size: 13px;
+   letter-spacing: 0.2px;
+   width: 60px;
+}
+.navJoins button:hover{
+    filter: invert(0.10);
+}
+
+
+@media only screen and (min-width:640px){
+    .navlogo h3{
+        font-size: 22px;
+    }
+}
+@media only screen and (min-width:768px){
+    .navlogo h3{
+        font-size: 24px;
+    }
+    .navitems{
+        display: flex;
+    }
+    .navbtns{
+        display: flex;
+    }
+    .navimg{
+        display: none;
+    }
+}
